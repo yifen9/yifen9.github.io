@@ -287,6 +287,27 @@ view:</p>
       </tags>
   </entry>
   <entry>
+    <title>Train an AI to Play Pokémon Battles</title>
+    <url>/2025/04/11/Train-an-AI-to-Play-Pokemon-Battles/</url>
+    <content><![CDATA[<p>To be continued…</p>
+<span id="more"></span>
+]]></content>
+      <categories>
+        <category>Computer Science</category>
+        <category>Applied Computer Science</category>
+        <category>Artificial Intelligence</category>
+      </categories>
+      <tags>
+        <tag>GitHub</tag>
+        <tag>Node.js</tag>
+        <tag>Project</tag>
+        <tag>Poke-env</tag>
+        <tag>Pokémon</tag>
+        <tag>Pokémon Showdown</tag>
+        <tag>Python</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hello World</title>
     <url>/2025/04/05/Hello-World/</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very
@@ -318,29 +339,9 @@ href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
         <category>Overview</category>
       </categories>
       <tags>
+        <tag>GitHub</tag>
         <tag>Hexo</tag>
         <tag>Hello World</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Train an AI to Play Pokémon Battles</title>
-    <url>/2025/04/11/Train-an-AI-to-Play-Pokemon-Battles/</url>
-    <content><![CDATA[<p>To be continued…</p>
-<span id="more"></span>
-]]></content>
-      <categories>
-        <category>Computer Science</category>
-        <category>Applied Computer Science</category>
-        <category>Artificial Intelligence</category>
-      </categories>
-      <tags>
-        <tag>GitHub</tag>
-        <tag>Node.js</tag>
-        <tag>Project</tag>
-        <tag>Poke-env</tag>
-        <tag>Pokémon</tag>
-        <tag>Pokémon Showdown</tag>
-        <tag>Python</tag>
       </tags>
   </entry>
   <entry>
