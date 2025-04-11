@@ -254,11 +254,36 @@ then you are done.</p>
       <tags>
         <tag>Tutorial</tag>
         <tag>GitHub</tag>
+        <tag>GitHub Pages</tag>
         <tag>Node.js</tag>
         <tag>Git</tag>
         <tag>Hexo</tag>
         <tag>NexT</tag>
         <tag>Website</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Guide to Good Games</title>
+    <url>/2025/04/08/Guide-to-Good-Games/</url>
+    <content><![CDATA[<p>This post can answer the following questions from my personal
+view:</p>
+<ul>
+<li>What are good games?</li>
+<li>Am I playing good games or not?</li>
+<li>Where can I find good games?</li>
+</ul>
+<span id="more"></span>
+<h1 id="introduction">INTRODUCTION</h1>
+<p>To be continued…</p>
+]]></content>
+      <categories>
+        <category>Game</category>
+        <category>Overview</category>
+      </categories>
+      <tags>
+        <tag>Guide</tag>
+        <tag>itch.io</tag>
+        <tag>Steam</tag>
       </tags>
   </entry>
   <entry>
@@ -309,33 +334,13 @@ href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
         <category>Artificial Intelligence</category>
       </categories>
       <tags>
+        <tag>GitHub</tag>
+        <tag>Node.js</tag>
         <tag>Project</tag>
+        <tag>Poke-env</tag>
         <tag>Pokémon</tag>
         <tag>Pokémon Showdown</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Guide to Good Games</title>
-    <url>/2025/04/08/Guide-to-Good-Games/</url>
-    <content><![CDATA[<p>This post can answer the following questions from my personal
-view:</p>
-<ul>
-<li>What are good games?</li>
-<li>Am I playing good games or not?</li>
-<li>Where can I find good games?</li>
-</ul>
-<span id="more"></span>
-<h1 id="introduction">INTRODUCTION</h1>
-<p>To be continued…</p>
-]]></content>
-      <categories>
-        <category>Game</category>
-        <category>Overview</category>
-      </categories>
-      <tags>
-        <tag>Guide</tag>
-        <tag>itch.io</tag>
-        <tag>Steam</tag>
+        <tag>Python</tag>
       </tags>
   </entry>
   <entry>
@@ -343,6 +348,18 @@ view:</p>
     <url>//404.html</url>
     <content><![CDATA[<p>Unfortunately,</p>
 <p>You have reached The End of my Personal Website.</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>Categories</title>
+    <url>/categories/index.html</url>
+    <content><![CDATA[
+]]></content>
+  </entry>
+  <entry>
+    <title>Tags</title>
+    <url>/tags/index.html</url>
+    <content><![CDATA[
 ]]></content>
   </entry>
   <entry>
@@ -661,18 +678,6 @@ Kingdom</a></li>
 <li><a href="https://t.me/yifen9">yifen9</a></li>
 </ul></li>
 </ul>
-]]></content>
-  </entry>
-  <entry>
-    <title>Tags</title>
-    <url>/tags/index.html</url>
-    <content><![CDATA[
-]]></content>
-  </entry>
-  <entry>
-    <title>Categories</title>
-    <url>/categories/index.html</url>
-    <content><![CDATA[
 ]]></content>
   </entry>
 </search>
