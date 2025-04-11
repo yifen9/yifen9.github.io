@@ -1,0 +1,678 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>Get a Personal Website</title>
+    <url>/2025/04/07/Get-a-Personal-Website/</url>
+    <content><![CDATA[<p>This post contains all my personal experience of building this
+Personal Website, and can be considered as a guide to build your own
+website as well.</p>
+<span id="more"></span>
+<h1 id="introduction">INTRODUCTION</h1>
+<p>For the best of pushing forward my personal development, a spot for
+storing personal notes, thoughts and experiences is needed, so I decided
+to start to build my own Personal Website.</p>
+<h2 id="tool-list">Tool List</h2>
+<p>Main Tools Used with Reasoning:</p>
+<ul>
+<li><a href="https://pages.github.com">GitHub Pages</a>
+<ul>
+<li>I am lazy to maintain a server.</li>
+</ul></li>
+<li><a href="https://hexo.io">Hexo</a>
+<ul>
+<li>Active community with solid looking.</li>
+</ul></li>
+<li><a href="https://theme-next.js.org/">NexT</a>
+<ul>
+<li>Simply the best choice in Hexo.</li>
+</ul></li>
+</ul>
+<blockquote>
+<p>If you are advanced enough, you don’t need to read the rest of this
+article.</p>
+</blockquote>
+<h1 id="get-a-website">GET A WEBSITE</h1>
+<p>By implement this section, you can get a basic Website powered by
+Hexo.</p>
+<h2 id="get-an-empty-repository">Get an Empty Repository</h2>
+<p>I mean, <a href="https://pages.github.com">the official guide</a> is
+already completed, so here I will only cover some of the details.</p>
+<h3 id="get-a-github-account">Get a GitHub account</h3>
+<p>Website Link: <a href="https://github.com">https://github.com</a></p>
+<ol type="1">
+<li>Get on GitHub.</li>
+<li>Find and Click “Sign Up”.</li>
+<li>Enter your E-mail and your Password.</li>
+<li>Choose your username (can be changed later).</li>
+<li>Done.</li>
+</ol>
+<blockquote>
+<p>I don’t even know why am I explaining this, but anyway I won’t
+explain it twice. &gt; That is, if you don’t have an account on any
+website, just follow the above steps, more or less the same.</p>
+</blockquote>
+<h3 id="get-github-desktop">Get GitHub Desktop</h3>
+<p>This step isn’t mandatory, but I strongly recommend you to do so,
+simply because it is user friendly, much better than dealing with pure
+terminal, especially if you are new to Git.</p>
+<p>Considering your System type:</p>
+<ul>
+<li><a href="https://desktop.github.com/download">Windows</a>
+<ul>
+<li>Just do it.</li>
+</ul></li>
+<li>Linux
+<ul>
+<li>Arch
+<ul>
+<li><a
+href="https://aur.archlinux.org/packages/github-desktop">github-desktop</a>
+<ul>
+<li>Install it and it’s done.
+<ul>
+<li>Whenever I say installing it on Arch, it usually means running this
+in your terminal
+<ul>
+<li><code>yay -S github-desktop</code></li>
+</ul></li>
+<li>Or like this
+<ul>
+<li><code>paru -S github-desktop</code></li>
+</ul></li>
+<li>Or maybe like this (they are all the same)
+<ul>
+<li><code>pacman -S github-desktop</code></li>
+</ul></li>
+<li>So in general
+<ul>
+<li><code>pacman || paru || yay -S package-name</code></li>
+</ul></li>
+<li>Well considering you are using Arch, it shouldn’t be a problem for
+you to understand this.</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li>Other
+<ul>
+<li>I don’t know man, I use Arch.</li>
+</ul></li>
+</ul></li>
+<li>MacOS
+<ul>
+<li>Switch to Windows.</li>
+</ul></li>
+</ul>
+<h3 id="get-your-repository">Get your Repository</h3>
+<p>By following <a href="https://pages.github.com">the official
+guide</a>, you should get something similar to <a
+href="https://github.com/yifen9/yifen9.github.io">my repository</a>, but
+with everything empty.</p>
+<p>If it’s not empty, make it empty for following steps. That is,
+deleting the files in your repository, by clicking files and clicking
+the red botton, then confirm deleting.</p>
+<blockquote>
+<p>It is not that I don’t want to explain the steps here (or maybe), but
+it is that things might change, so it’s better to follow the official
+guide here.</p>
+</blockquote>
+<h2 id="initializing-hexo">Initializing Hexo</h2>
+<p><a href="https://hexo.io/docs">The official guide</a>.</p>
+<h3 id="get-node.js">Get Node.js</h3>
+<p>Nobody cares about Node.js, you don’t need to know about it neither,
+but we do need it for Hexo.</p>
+<p>Considering your System type:</p>
+<ul>
+<li><a href="https://nodejs.org/en">Windows</a>
+<ul>
+<li>Download and install, even if it warns you there are risks. Safety
+is for kids.</li>
+</ul></li>
+<li>Linux
+<ul>
+<li>Arch
+<ul>
+<li><a
+href="https://wiki.archlinux.org/title/Node.js#Installation">Node.js</a></li>
+</ul></li>
+<li>Other
+<ul>
+<li>Don’t care.</li>
+</ul></li>
+</ul></li>
+</ul>
+<h3 id="get-git">Get Git</h3>
+<p>Similar steps</p>
+<ul>
+<li><a href="https://git-scm.com/downloads/win">Windows</a></li>
+<li><a
+href="https://wiki.archlinux.org/title/git#Installation">Arch</a></li>
+</ul>
+<h3 id="get-hexo">Get Hexo</h3>
+<p>Now we have both Node.js and Git, ready for Hexo.</p>
+<p>Run this in your terminal:</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>“npm” (Node Packaged Modules) is included in Node.js, that’s why we
+need Node.js. <a
+href="https://wiki.archlinux.org/title/Node.js#Node_Packaged_Modules">See
+more</a>. &gt; Though we might not need Git here, but maybe it is for
+the convenience of following steps. I don’t know.</p>
+</blockquote>
+<p>Done.</p>
+<h3 id="initializing-directory">Initializing Directory</h3>
+<p><a href="https://hexo.io/docs/setup">The official guide</a>.</p>
+<p>Steps:</p>
+<ol type="1">
+<li>Prepare a nice directory, where you will deal with all the settings
+and will edit your posts frequently.</li>
+<li>Open your terminal in that directory, or simply open and redirect to
+that directory.</li>
+<li>Run <code>hexo init</code></li>
+</ol>
+<p>Then your directory will be looked something similar to this:</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">.</span><br><span class="line">├── _config.yml</span><br><span class="line">├── package.json</span><br><span class="line">├── scaffolds</span><br><span class="line">├── source</span><br><span class="line">|   ├── _drafts</span><br><span class="line">|   └── _posts</span><br><span class="line">└── themes</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>Things might change by the version you installed, but should be more
+or less the same (or not).</p>
+</blockquote>
+<h2 id="get-your-website-work">Get your Website work</h2>
+<h3 id="get-hexo-deployer-git">Get <code>hexo-deployer-git</code></h3>
+<p><a href="https://hexo.io/docs/one-command-deployment">The official
+guide</a>.</p>
+<p>There are many options for deploying, here I choose
+<code>hexo-deployer-git</code>, simply because it’s the best way to get
+your Hexo on GitHub Pages.</p>
+<p>Run this in your terminal:</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install hexo-deployer-git</span><br></pre></td></tr></table></figure>
+<p>And get to your nice directory (where you initialized Hexo), editing
+<code>_config.yml</code> (using any text editor, e.g., <a
+href="https://code.visualstudio.com">VS Code</a>), to add following
+code:</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repo: &lt;repository url&gt;</span><br><span class="line">  branch: [branch]</span><br></pre></td></tr></table></figure>
+<p>OK here you would want to replace some of the keywords here to fit
+your own case.</p>
+<p>In my case, it is:</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repo: https://github.com/yifen9/yifen9.github.io</span><br><span class="line">  branch: main</span><br></pre></td></tr></table></figure>
+<ul>
+<li><code>repo</code>
+<ul>
+<li>That is, to replace the <code>&lt;repository url&gt;</code> by the
+link of the empty repository you got from <a
+href="#get-an-empty-repository">another step</a>.</li>
+</ul></li>
+<li><code>branch</code>
+<ul>
+<li>And as for the <code>branch</code>, it’s normally <code>main</code>
+or <code>master</code>, depending on your repository.
+<ul>
+<li>Can be checked by visiting <a
+href="https://github.com/yifen9/yifen9.github.io/branches">https://github.com/your-name/your-repository/branches</a>
+<ul>
+<li>E.g., <a
+href="https://github.com/yifen9/yifen9.github.io/branches">https://github.com/yifen9/yifen9.github.io/branches</a>
+<ul>
+<li>Here you can see that my branch is <code>main</code>, that’s
+why</li>
+</ul></li>
+</ul></li>
+<li>Notice that you can also replace it by other branches, if you know
+what you are doing.</li>
+</ul></li>
+</ul></li>
+</ul>
+<p>Notice that when you initialize Hexo, it is possible that the system
+has already generate the whole code or part of the code for deploying in
+<code>_config.yml</code> for you.</p>
+<p>In that case, you don’t need to add full code in
+<code>_config.yml</code>, but to fill the difference.</p>
+<h3 id="deploy-hexo">Deploy Hexo</h3>
+<p>Open a terminal in the directory (<a
+href="#initializing-directory">Initializing Directory</a>), run:</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo generate</span><br><span class="line">hexo deploy</span><br></pre></td></tr></table></figure>
+<p>Or simply:</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</span><br></pre></td></tr></table></figure>
+<h3 id="visit-hello-world">Visit Hello World</h3>
+<p>OK now check your <a href="#get-your-repository">repository</a>
+again, it should be full of some random files.</p>
+<p>Then you should be able to access you website already, by visiting <a
+href="https://yifen9.github.io">https://your-username.github.io</a></p>
+<ul>
+<li>E.g., <a
+href="https://yifen9.github.io">https://yifen9.github.io</a></li>
+</ul>
+<p>If you can see something, a Hello World like what I got (see <a
+href="https://yifen9.github.io/2025/04/05/hello-world">Hello World</a>),
+then you are done.</p>
+<h1 id="get-a-better-website">GET A BETTER WEBSITE</h1>
+<p>To be continued…</p>
+]]></content>
+      <categories>
+        <category>Computer Science</category>
+        <category>Computer Systems</category>
+        <category>Computer Networks</category>
+      </categories>
+      <tags>
+        <tag>Tutorial</tag>
+        <tag>GitHub</tag>
+        <tag>Node.js</tag>
+        <tag>Git</tag>
+        <tag>Hexo</tag>
+        <tag>NexT</tag>
+        <tag>Website</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2025/04/05/Hello-World/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very
+first post. Check <a href="https://hexo.io/docs/">documentation</a> for
+more info. If you get any problems when using Hexo, you can find the
+answer in <a
+href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or
+you can ask me on <a
+href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<span id="more"></span>
+<h2 id="quick-start">Quick Start</h2>
+<h3 id="create-a-new-post">Create a new post</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+<p>More info: <a
+href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="run-server">Run server</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="generate-static-files">Generate static files</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<p>More info: <a
+href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="deploy-to-remote-sites">Deploy to remote sites</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<p>More info: <a
+href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+      <categories>
+        <category>Overview</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+        <tag>Hello World</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Train an AI to Play Pokémon Battles</title>
+    <url>/2025/04/11/Train-an-AI-to-Play-Pokemon-Battles/</url>
+    <content><![CDATA[<p>To be continued…</p>
+<span id="more"></span>
+]]></content>
+      <categories>
+        <category>Computer Science</category>
+        <category>Applied Computer Science</category>
+        <category>Artificial Intelligence</category>
+      </categories>
+      <tags>
+        <tag>Project</tag>
+        <tag>Pokémon</tag>
+        <tag>Pokémon Showdown</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Guide to Good Games</title>
+    <url>/2025/04/08/Guide-to-Good-Games/</url>
+    <content><![CDATA[<p>This post can answer the following questions from my personal
+view:</p>
+<ul>
+<li>What are good games?</li>
+<li>Am I playing good games or not?</li>
+<li>Where can I find good games?</li>
+</ul>
+<span id="more"></span>
+<h1 id="introduction">INTRODUCTION</h1>
+<p>To be continued…</p>
+]]></content>
+      <categories>
+        <category>Game</category>
+        <category>Overview</category>
+      </categories>
+      <tags>
+        <tag>Guide</tag>
+        <tag>itch.io</tag>
+        <tag>Steam</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Everything has An End</title>
+    <url>//404.html</url>
+    <content><![CDATA[<p>Unfortunately,</p>
+<p>You have reached The End of my Personal Website.</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>as You might Care about WHO AM I</title>
+    <url>/about/index.html</url>
+    <content><![CDATA[<h1 id="basic-info">BASIC INFO</h1>
+<p>Li Yifeng ( 李 艺峰 | /lǐ jì fēng/ ), with Li as my surname, male,
+was born on Nov 9 2005 in <a
+href="https://maps.app.goo.gl/ZMK1shMR3rZZyMA96">Shenzhen</a>.</p>
+<h2 id="name">Name</h2>
+<ul>
+<li>Firstname
+<ul>
+<li>🇬🇧 English
+<ul>
+<li>Yifeng</li>
+</ul></li>
+<li>🇹🇼 Mandarin
+<ul>
+<li>艺峰</li>
+</ul></li>
+<li>🌐 IPA
+<ul>
+<li>/jì fēng/</li>
+</ul></li>
+</ul></li>
+<li>Surname
+<ul>
+<li>🇬🇧 English
+<ul>
+<li>Li</li>
+</ul></li>
+<li>🇹🇼 Mandarin
+<ul>
+<li>李</li>
+</ul></li>
+<li>🌐 IPA
+<ul>
+<li>/lǐ/</li>
+</ul></li>
+</ul></li>
+</ul>
+<h2 id="sex">Sex</h2>
+<ul>
+<li>Male</li>
+</ul>
+<h2 id="birth">Birth</h2>
+<ul>
+<li>Date
+<ul>
+<li>Day
+<ul>
+<li>9</li>
+</ul></li>
+<li>Month
+<ul>
+<li>11</li>
+</ul></li>
+<li>Year
+<ul>
+<li>2005</li>
+</ul></li>
+</ul></li>
+<li>Place
+<ul>
+<li>City
+<ul>
+<li><a
+href="https://maps.app.goo.gl/ZMK1shMR3rZZyMA96">Shenzhen</a></li>
+</ul></li>
+<li>Province
+<ul>
+<li><a
+href="https://maps.app.goo.gl/LYP7rmtYXFgMwZCJ9">Guangdong</a></li>
+</ul></li>
+<li>Country
+<ul>
+<li><a href="https://maps.app.goo.gl/WcTNWfgciLqHPcLbA">China</a></li>
+</ul></li>
+</ul></li>
+</ul>
+<h1 id="main-info">MAIN INFO</h1>
+<p>Things might change in long term.</p>
+<h2 id="family">Family</h2>
+<ul>
+<li>Parent
+<ul>
+<li>Father</li>
+<li>Mother</li>
+</ul></li>
+<li>Sibling
+<ul>
+<li>Brother</li>
+</ul></li>
+<li>Spouse
+<ul>
+<li>None</li>
+</ul></li>
+<li>Kid
+<ul>
+<li>None</li>
+</ul></li>
+<li>Pet
+<ul>
+<li>Cat
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/British_Shorthair">British
+Shorthair</a></li>
+</ul></li>
+</ul></li>
+</ul>
+<h2 id="residence">Residence</h2>
+<ul>
+<li>2025 ~ 2026
+<ul>
+<li>🇩🇪 <a
+href="https://maps.app.goo.gl/aC4AVW58HxbvWuz98">Saarbrücken</a></li>
+</ul></li>
+<li>2024 ~ 2025
+<ul>
+<li>🇮🇹 <a
+href="https://maps.app.goo.gl/HCyw1QTDQYDZ9kj19">Trento</a></li>
+</ul></li>
+<li>2005 ~ 2024
+<ul>
+<li>🇭🇰 <a
+href="https://maps.app.goo.gl/ZMK1shMR3rZZyMA96">Shenzhen</a></li>
+</ul></li>
+</ul>
+<h2 id="language">Language</h2>
+<ul>
+<li>Speak
+<ul>
+<li>🇬🇧 English</li>
+<li>🇹🇼 Mandarin</li>
+</ul></li>
+<li>Read
+<ul>
+<li>🇭🇰 Cantonese</li>
+<li>🇯🇵 Japanese</li>
+</ul></li>
+<li>Learn
+<ul>
+<li>🇩🇪 German</li>
+<li>🇮🇹 Italian</li>
+</ul></li>
+</ul>
+<h2 id="education">Education</h2>
+<ul>
+<li>Bachelor
+<ul>
+<li>🇩🇪 <a href="https://www.uni-saarland.de">Saarland University</a>
+<ul>
+<li>Year
+<ul>
+<li>2025/2026 ~ 2026/2027</li>
+</ul></li>
+<li>Major
+<ul>
+<li>Computer Science</li>
+</ul></li>
+</ul></li>
+<li>🇮🇹 <a href="https://www.unitn.it">University of Trento</a>
+<ul>
+<li>Year
+<ul>
+<li>2024/2025 ~ 2025/2026</li>
+</ul></li>
+<li>Major
+<ul>
+<li>Computer Science</li>
+</ul></li>
+<li>GPA
+<ul>
+<li>94/100</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li>Senior Secondary
+<ul>
+<li>🇭🇰 <a
+href="http://www.sz.gov.cn/school/gmxq/zx/szsdesegjzx/content/post_9494695.html">Shenzhen
+NO.22 Senior High School</a>
+<ul>
+<li>Year
+<ul>
+<li>2021/2022 ~ 2024/2025</li>
+</ul></li>
+<li>Major
+<ul>
+<li>Science Stream</li>
+</ul></li>
+<li>GPA
+<ul>
+<li>77/100</li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul>
+<h1 id="more-info">MORE INFO</h1>
+<p>Things might change in short term.</p>
+<h2 id="interests">Interests</h2>
+<ul>
+<li>Research
+<ul>
+<li>Artificial Intelligence</li>
+<li>Cognitive Science</li>
+<li>Databases</li>
+<li>High-Performance Computing</li>
+<li>Quantum Computing</li>
+</ul></li>
+<li>Place
+<ul>
+<li>City
+<ul>
+<li>🇩🇰 <a
+href="https://maps.app.goo.gl/fNRbA51jXEA7UWMe8">Copenhagen</a></li>
+<li>🇨🇿 <a
+href="https://maps.app.goo.gl/6j5ggktiY4kAEAhu9">Prague</a></li>
+<li>🇫🇷 <a
+href="https://maps.app.goo.gl/KNH75Xa9x8q13t1w9">Strasbourg</a></li>
+</ul></li>
+<li>Region
+<ul>
+<li>🇨🇭 <a href="https://maps.app.goo.gl/YciuaHBLNJhGJDj49">Alps</a></li>
+<li>🇩🇪 <a
+href="https://maps.app.goo.gl/T19fJVATdH4mZBfg6">Rhineland</a></li>
+<li>🇳🇴 <a
+href="https://maps.app.goo.gl/FYvu4ykawZPfRhsE8">Scandinavia</a></li>
+</ul></li>
+<li>Country
+<ul>
+<li>🇯🇵 <a
+href="https://maps.app.goo.gl/Nc4jw4NpdMUQdgQa8">Japan</a></li>
+<li>🇵🇱 <a
+href="https://maps.app.goo.gl/Af1QHgXrC5KJXNER7">Poland</a></li>
+<li>🇬🇧 <a href="https://maps.app.goo.gl/2usZnuxr5op66dB2A">United
+Kingdom</a></li>
+</ul></li>
+</ul></li>
+<li>Thing
+<ul>
+<li>Animal
+<ul>
+<li>Cat</li>
+<li>Crow</li>
+<li>Owl</li>
+</ul></li>
+<li>Food
+<ul>
+<li>Gelato</li>
+<li>Pierogi</li>
+<li>Ramen</li>
+</ul></li>
+<li>Weather
+<ul>
+<li>Foggy</li>
+<li>Rainy</li>
+<li>Snowy</li>
+</ul></li>
+</ul></li>
+<li>Activity
+<ul>
+<li>Indoor
+<ul>
+<li>Gaming
+<ul>
+<li>Boardgame</li>
+<li>Videogame</li>
+</ul></li>
+<li>Learning
+<ul>
+<li>Online Learning</li>
+<li>Web Searching</li>
+</ul></li>
+<li>Music Listening
+<ul>
+<li>Classical Music</li>
+<li>Light Music</li>
+</ul></li>
+</ul></li>
+<li>Outdoor
+<ul>
+<li>Cycling</li>
+<li>Hiking</li>
+<li>Travelling</li>
+</ul></li>
+<li>Other
+<ul>
+<li>Discussing</li>
+<li>Comics Reading</li>
+<li>Community Building</li>
+</ul></li>
+</ul></li>
+</ul>
+<h1 id="contacts">CONTACTS</h1>
+<h2 id="e-mail">E-mail</h2>
+<ul>
+<li>University of Trento
+<ul>
+<li><a href="mailto:yifeng.li@studenti.unitn.it">yifeng.li</a></li>
+</ul></li>
+<li>Yandex Mail
+<ul>
+<li><a href="mailto:yifen9@yandex.com">yifen9</a></li>
+</ul></li>
+</ul>
+<h2 id="social-media">Social Media</h2>
+<ul>
+<li>GitHub
+<ul>
+<li><a href="https://github.com/yifen9">yifen9</a></li>
+</ul></li>
+<li>Telegram
+<ul>
+<li><a href="https://t.me/yifen9">yifen9</a></li>
+</ul></li>
+</ul>
+]]></content>
+  </entry>
+  <entry>
+    <title>Tags</title>
+    <url>/tags/index.html</url>
+    <content><![CDATA[
+]]></content>
+  </entry>
+  <entry>
+    <title>Categories</title>
+    <url>/categories/index.html</url>
+    <content><![CDATA[
+]]></content>
+  </entry>
+</search>

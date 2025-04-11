@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Li Yifeng</title>
+  <icon>https://yifen9.github.io/icon.png</icon>
+  <subtitle>Personal Website</subtitle>
+  <link href="https://yifen9.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://yifen9.github.io/"/>
+  <updated>2025-04-11T08:55:30.705Z</updated>
+  <id>https://yifen9.github.io/</id>
+  
+  <author>
+    <name>Li Yifeng</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Train an AI to Play Pokémon Battles</title>
+    <link href="https://yifen9.github.io/2025/04/11/Train-an-AI-to-Play-Pokemon-Battles/"/>
+    <id>https://yifen9.github.io/2025/04/11/Train-an-AI-to-Play-Pokemon-Battles/</id>
+    <published>2025-04-11T08:46:43.000Z</published>
+    <updated>2025-04-11T08:55:30.705Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;To be continued…&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Computer Science" scheme="https://yifen9.github.io/categories/Computer-Science/"/>
+    
+    <category term="Applied Computer Science" scheme="https://yifen9.github.io/categories/Computer-Science/Applied-Computer-Science/"/>
+    
+    <category term="Artificial Intelligence" scheme="https://yifen9.github.io/categories/Computer-Science/Applied-Computer-Science/Artificial-Intelligence/"/>
+    
+    
+    <category term="Project" scheme="https://yifen9.github.io/tags/Project/"/>
+    
+    <category term="Pokémon" scheme="https://yifen9.github.io/tags/Pokemon/"/>
+    
+    <category term="Pokémon Showdown" scheme="https://yifen9.github.io/tags/Pokemon-Showdown/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Guide to Good Games</title>
+    <link href="https://yifen9.github.io/2025/04/08/Guide-to-Good-Games/"/>
+    <id>https://yifen9.github.io/2025/04/08/Guide-to-Good-Games/</id>
+    <published>2025-04-07T23:52:02.000Z</published>
+    <updated>2025-04-11T08:37:49.286Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;This post can answer the following questions from my personal
+view:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;What are good games?&lt;/li&gt;
+&lt;li&gt;Am I playing good games or not?&lt;/li&gt;
+&lt;li&gt;Where can I find good games?&lt;/li&gt;
+&lt;/ul&gt;</summary>
+    
+    
+    
+    <category term="Game" scheme="https://yifen9.github.io/categories/Game/"/>
+    
+    <category term="Overview" scheme="https://yifen9.github.io/categories/Game/Overview/"/>
+    
+    
+    <category term="Guide" scheme="https://yifen9.github.io/tags/Guide/"/>
+    
+    <category term="itch.io" scheme="https://yifen9.github.io/tags/itch-io/"/>
+    
+    <category term="Steam" scheme="https://yifen9.github.io/tags/Steam/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Get a Personal Website</title>
+    <link href="https://yifen9.github.io/2025/04/07/Get-a-Personal-Website/"/>
+    <id>https://yifen9.github.io/2025/04/07/Get-a-Personal-Website/</id>
+    <published>2025-04-07T13:29:32.000Z</published>
+    <updated>2025-04-11T08:55:49.084Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;This post contains all my personal experience of building this
+Personal Website, and can be considered as a guide to build your own
+website as well.&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Computer Science" scheme="https://yifen9.github.io/categories/Computer-Science/"/>
+    
+    <category term="Computer Systems" scheme="https://yifen9.github.io/categories/Computer-Science/Computer-Systems/"/>
+    
+    <category term="Computer Networks" scheme="https://yifen9.github.io/categories/Computer-Science/Computer-Systems/Computer-Networks/"/>
+    
+    
+    <category term="Tutorial" scheme="https://yifen9.github.io/tags/Tutorial/"/>
+    
+    <category term="GitHub" scheme="https://yifen9.github.io/tags/GitHub/"/>
+    
+    <category term="Node.js" scheme="https://yifen9.github.io/tags/Node-js/"/>
+    
+    <category term="Git" scheme="https://yifen9.github.io/tags/Git/"/>
+    
+    <category term="Hexo" scheme="https://yifen9.github.io/tags/Hexo/"/>
+    
+    <category term="NexT" scheme="https://yifen9.github.io/tags/NexT/"/>
+    
+    <category term="Website" scheme="https://yifen9.github.io/tags/Website/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://yifen9.github.io/2025/04/05/Hello-World/"/>
+    <id>https://yifen9.github.io/2025/04/05/Hello-World/</id>
+    <published>2025-04-05T12:43:41.000Z</published>
+    <updated>2025-04-11T08:34:22.380Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very
+first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for
+more info. If you get any problems when using Hexo, you can find the
+answer in &lt;a
+href=&quot;https://hexo.io/docs/troubleshooting.html&quot;&gt;troubleshooting&lt;/a&gt; or
+you can ask me on &lt;a
+href=&quot;https://github.com/hexojs/hexo/issues&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Overview" scheme="https://yifen9.github.io/categories/Overview/"/>
+    
+    
+    <category term="Hexo" scheme="https://yifen9.github.io/tags/Hexo/"/>
+    
+    <category term="Hello World" scheme="https://yifen9.github.io/tags/Hello-World/"/>
+    
+  </entry>
+  
+</feed>
