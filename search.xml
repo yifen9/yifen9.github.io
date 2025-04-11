@@ -1,6 +1,67 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Hello World</title>
+    <url>/2025/04/05/Hello-World/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very
+first post. Check <a href="https://hexo.io/docs/">documentation</a> for
+more info. If you get any problems when using Hexo, you can find the
+answer in <a
+href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or
+you can ask me on <a
+href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<span id="more"></span>
+<h2 id="quick-start">Quick Start</h2>
+<h3 id="create-a-new-post">Create a new post</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+<p>More info: <a
+href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="run-server">Run server</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="generate-static-files">Generate static files</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<p>More info: <a
+href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="deploy-to-remote-sites">Deploy to remote sites</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<p>More info: <a
+href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+      <categories>
+        <category>Overview</category>
+      </categories>
+      <tags>
+        <tag>Hello World</tag>
+        <tag>GitHub</tag>
+        <tag>Hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Guide to Good Games</title>
+    <url>/2025/04/08/Guide-to-Good-Games/</url>
+    <content><![CDATA[<p>This post can answer the following questions from my personal
+view:</p>
+<ul>
+<li>What are good games?</li>
+<li>Am I playing good games or not?</li>
+<li>Where can I find good games?</li>
+</ul>
+<span id="more"></span>
+<h1 id="introduction">INTRODUCTION</h1>
+<p>To be continued…</p>
+]]></content>
+      <categories>
+        <category>Game</category>
+        <category>Overview</category>
+      </categories>
+      <tags>
+        <tag>Guide</tag>
+        <tag>itch.io</tag>
+        <tag>Steam</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Get a Personal Website</title>
     <url>/2025/04/07/Get-a-Personal-Website/</url>
     <content><![CDATA[<p>This post contains all my personal experience of building this
@@ -252,38 +313,14 @@ then you are done.</p>
         <category>Computer Networks</category>
       </categories>
       <tags>
-        <tag>Tutorial</tag>
         <tag>GitHub</tag>
+        <tag>Hexo</tag>
+        <tag>Tutorial</tag>
         <tag>GitHub Pages</tag>
         <tag>Node.js</tag>
         <tag>Git</tag>
-        <tag>Hexo</tag>
         <tag>NexT</tag>
         <tag>Website</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Guide to Good Games</title>
-    <url>/2025/04/08/Guide-to-Good-Games/</url>
-    <content><![CDATA[<p>This post can answer the following questions from my personal
-view:</p>
-<ul>
-<li>What are good games?</li>
-<li>Am I playing good games or not?</li>
-<li>Where can I find good games?</li>
-</ul>
-<span id="more"></span>
-<h1 id="introduction">INTRODUCTION</h1>
-<p>To be continued…</p>
-]]></content>
-      <categories>
-        <category>Game</category>
-        <category>Overview</category>
-      </categories>
-      <tags>
-        <tag>Guide</tag>
-        <tag>itch.io</tag>
-        <tag>Steam</tag>
       </tags>
   </entry>
   <entry>
@@ -301,47 +338,11 @@ view:</p>
         <tag>GitHub</tag>
         <tag>Node.js</tag>
         <tag>Project</tag>
+        <tag>PokeZero</tag>
         <tag>Poke-env</tag>
         <tag>Pokémon</tag>
         <tag>Pokémon Showdown</tag>
         <tag>Python</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hello World</title>
-    <url>/2025/04/05/Hello-World/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very
-first post. Check <a href="https://hexo.io/docs/">documentation</a> for
-more info. If you get any problems when using Hexo, you can find the
-answer in <a
-href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or
-you can ask me on <a
-href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<span id="more"></span>
-<h2 id="quick-start">Quick Start</h2>
-<h3 id="create-a-new-post">Create a new post</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a
-href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="run-server">Run server</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="generate-static-files">Generate static files</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a
-href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="deploy-to-remote-sites">Deploy to remote sites</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a
-href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
-      <categories>
-        <category>Overview</category>
-      </categories>
-      <tags>
-        <tag>GitHub</tag>
-        <tag>Hexo</tag>
-        <tag>Hello World</tag>
       </tags>
   </entry>
   <entry>
