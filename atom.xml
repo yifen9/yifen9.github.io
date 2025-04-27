@@ -6,7 +6,7 @@
   <link href="https://yifen9.github.io/atom.xml" rel="self"/>
   
   <link href="https://yifen9.github.io/"/>
-  <updated>2025-04-11T10:51:14.047Z</updated>
+  <updated>2025-04-27T10:22:16.842Z</updated>
   <id>https://yifen9.github.io/</id>
   
   <author>
@@ -17,39 +17,47 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Train an AI to Play Pokémon Battles</title>
-    <link href="https://yifen9.github.io/2025/04/11/Train-an-AI-to-Play-Pokemon-Battles/"/>
-    <id>https://yifen9.github.io/2025/04/11/Train-an-AI-to-Play-Pokemon-Battles/</id>
-    <published>2025-04-11T08:46:43.000Z</published>
-    <updated>2025-04-11T10:51:14.047Z</updated>
+    <title>Get a UniTrento BSc</title>
+    <link href="https://yifen9.github.io/2025/04/17/Get-a-UniTrento-BSc/"/>
+    <id>https://yifen9.github.io/2025/04/17/Get-a-UniTrento-BSc/</id>
+    <published>2025-04-17T10:00:00.000Z</published>
+    <updated>2025-04-27T10:22:16.842Z</updated>
     
     
-    <summary type="html">&lt;p&gt;To be continued…&lt;/p&gt;</summary>
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;To be</summary>
+        
+      
     
     
     
     <category term="Computer Science" scheme="https://yifen9.github.io/categories/Computer-Science/"/>
     
-    <category term="Applied Computer Science" scheme="https://yifen9.github.io/categories/Computer-Science/Applied-Computer-Science/"/>
+    <category term="Computer Systems" scheme="https://yifen9.github.io/categories/Computer-Science/Computer-Systems/"/>
     
-    <category term="Artificial Intelligence" scheme="https://yifen9.github.io/categories/Computer-Science/Applied-Computer-Science/Artificial-Intelligence/"/>
+    <category term="Computer Networks" scheme="https://yifen9.github.io/categories/Computer-Science/Computer-Systems/Computer-Networks/"/>
     
+    
+    <category term="Tutorial" scheme="https://yifen9.github.io/tags/Tutorial/"/>
     
     <category term="GitHub" scheme="https://yifen9.github.io/tags/GitHub/"/>
     
+    <category term="GitHub Pages" scheme="https://yifen9.github.io/tags/GitHub-Pages/"/>
+    
+    <category term="Julia" scheme="https://yifen9.github.io/tags/Julia/"/>
+    
+    <category term="MkDocs" scheme="https://yifen9.github.io/tags/MkDocs/"/>
+    
+    <category term="MkDocs Material" scheme="https://yifen9.github.io/tags/MkDocs-Material/"/>
+    
     <category term="Node.js" scheme="https://yifen9.github.io/tags/Node-js/"/>
     
-    <category term="Project" scheme="https://yifen9.github.io/tags/Project/"/>
+    <category term="Note" scheme="https://yifen9.github.io/tags/Note/"/>
     
-    <category term="PokeZero" scheme="https://yifen9.github.io/tags/PokeZero/"/>
-    
-    <category term="Poke-env" scheme="https://yifen9.github.io/tags/Poke-env/"/>
-    
-    <category term="Pokémon" scheme="https://yifen9.github.io/tags/Pokemon/"/>
-    
-    <category term="Pokémon Showdown" scheme="https://yifen9.github.io/tags/Pokemon-Showdown/"/>
-    
-    <category term="Python" scheme="https://yifen9.github.io/tags/Python/"/>
+    <category term="Website" scheme="https://yifen9.github.io/tags/Website/"/>
     
   </entry>
   
@@ -89,7 +97,7 @@ view:&lt;/p&gt;
     <link href="https://yifen9.github.io/2025/04/07/Get-a-Personal-Website/"/>
     <id>https://yifen9.github.io/2025/04/07/Get-a-Personal-Website/</id>
     <published>2025-04-07T13:29:32.000Z</published>
-    <updated>2025-04-11T10:35:58.319Z</updated>
+    <updated>2025-04-27T10:04:05.627Z</updated>
     
     
     <summary type="html">&lt;p&gt;This post contains all my personal experience of building this
@@ -105,21 +113,21 @@ website as well.&lt;/p&gt;</summary>
     <category term="Computer Networks" scheme="https://yifen9.github.io/categories/Computer-Science/Computer-Systems/Computer-Networks/"/>
     
     
-    <category term="GitHub" scheme="https://yifen9.github.io/tags/GitHub/"/>
-    
-    <category term="Hexo" scheme="https://yifen9.github.io/tags/Hexo/"/>
-    
     <category term="Tutorial" scheme="https://yifen9.github.io/tags/Tutorial/"/>
+    
+    <category term="GitHub" scheme="https://yifen9.github.io/tags/GitHub/"/>
     
     <category term="GitHub Pages" scheme="https://yifen9.github.io/tags/GitHub-Pages/"/>
     
     <category term="Node.js" scheme="https://yifen9.github.io/tags/Node-js/"/>
     
+    <category term="Website" scheme="https://yifen9.github.io/tags/Website/"/>
+    
     <category term="Git" scheme="https://yifen9.github.io/tags/Git/"/>
     
-    <category term="NexT" scheme="https://yifen9.github.io/tags/NexT/"/>
+    <category term="Hexo" scheme="https://yifen9.github.io/tags/Hexo/"/>
     
-    <category term="Website" scheme="https://yifen9.github.io/tags/Website/"/>
+    <category term="NexT" scheme="https://yifen9.github.io/tags/NexT/"/>
     
   </entry>
   
@@ -144,11 +152,11 @@ href=&quot;https://github.com/hexojs/hexo/issues&quot;&gt;GitHub&lt;/a&gt;.&lt;/
     <category term="Overview" scheme="https://yifen9.github.io/categories/Overview/"/>
     
     
-    <category term="Hello World" scheme="https://yifen9.github.io/tags/Hello-World/"/>
-    
     <category term="GitHub" scheme="https://yifen9.github.io/tags/GitHub/"/>
     
     <category term="Hexo" scheme="https://yifen9.github.io/tags/Hexo/"/>
+    
+    <category term="Hello World" scheme="https://yifen9.github.io/tags/Hello-World/"/>
     
   </entry>
   
