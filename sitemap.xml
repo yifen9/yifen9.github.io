@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://yifen9.github.io/2025/04/17/Get-a-UniTrento-BSc/</loc>
+    <loc>https://yifen9.github.io/2025/04/17/Get-a-Personal-UNITN.BSc/</loc>
     
     <lastmod>2025-04-27</lastmod>
     
@@ -146,27 +146,6 @@
   </url>
   
   <url>
-    <loc>https://yifen9.github.io/tags/Guide/</loc>
-    <lastmod>2025-04-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://yifen9.github.io/tags/itch-io/</loc>
-    <lastmod>2025-04-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://yifen9.github.io/tags/Steam/</loc>
-    <lastmod>2025-04-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://yifen9.github.io/tags/Git/</loc>
     <lastmod>2025-04-27</lastmod>
     <changefreq>weekly</changefreq>
@@ -182,6 +161,27 @@
   
   <url>
     <loc>https://yifen9.github.io/tags/NexT/</loc>
+    <lastmod>2025-04-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://yifen9.github.io/tags/Guide/</loc>
+    <lastmod>2025-04-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://yifen9.github.io/tags/itch-io/</loc>
+    <lastmod>2025-04-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://yifen9.github.io/tags/Steam/</loc>
     <lastmod>2025-04-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
